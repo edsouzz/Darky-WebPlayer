@@ -1,0 +1,119 @@
+.navbar{
+    background-color: #000000;
+    display: fixed;
+    position: fixed;
+    width: 250px;
+    height: 100%;
+}
+.navbar #logo{
+    width: 45px; 
+    position: fixed;
+    margin-left: 20px;
+    margin-top: 20px; 
+}
+.navbar h1{
+    color: white;
+    font-size: 30px;
+    margin-left:75px;
+    margin-top: 27px;
+}
+.navbar .Button1{
+    background-color: #202020c0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 11px 120px;
+    display: flex;
+    margin-left: 5px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.navbar .Button1 img{
+width: 15px;
+margin-left: -102px;
+vertical-align:middle;
+}
+.navbar .Button1:hover{
+    transition: 1.5s;
+background-color: #383838;
+}
+.navbar .Button2{
+    background-color: #20202000;
+    color: rgba(255, 255, 255, 0.452);
+    border: none;
+    border-radius: 5px;
+    padding: 11px 117px;
+    display: flex;
+    margin-left: 7.5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.navbar .Button2 img{
+width: 14px;
+margin-top: 1.5px;
+margin-left: -103px;
+vertical-align:middle;
+}
+.navbar .Button2:hover{
+    transition: 1.5s;
+    color: white;
+    background-color: #38383800;
+}
+.navbar .Button3{
+    background-color: #2b2b2b00;
+    color: rgba(255, 255, 255, 0.452);
+    border: none;
+    border-radius: 5px;
+    padding: 11px 117px;
+    display: flex;
+    margin-left: 7.5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.navbar .Button3 img{
+width: 15px;
+margin-left: -103px;
+vertical-align:middle;
+}
+.navbar .Button3:hover{
+    transition: 1.5s;
+    color: #fff;
+    background-color: #38383800;
+}
+.navbar p{
+    text-align: center;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size:17px;
+}
+.navbar .button-adicionar p{
+    margin-top: 1.7px;
+}
+.button-adicionar button{
+    margin-left: 20px;
+    border: none;
+    border-radius: 2.5px;
+    font-size: 16px;
+    padding: 1.5px 5.2px;
+    background-color: rgba(255, 255, 255, 0.452);
+}
+.button-adicionar a{
+    margin-top: 25px;
+    align-items: middle;    
+    display: flex;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.452);
+}
+.button-adicionar a p{
+    margin-top: 2.5px;
+}
+.button-adicionar a:hover{
+    color: #fff;
+    transition: 1s;
+}
+.button-adicionar:hover button{
+    transition: 1s;
+    background-color: #fff;     
+    color: #383838;
+}

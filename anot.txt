@@ -1,0 +1,15 @@
+#000000
+#2b2b2b
+#383838	
+
+Electric Violet
+#B80FD0
+
+Mine Shaft
+#2C2C2C
+
+Blue Gem
+#541394
+
+Dolphin
+#6C607C

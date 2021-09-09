@@ -1,0 +1,20 @@
+/*CSS Document*/
+@import url('https://fonts.googleapis.com/css2? family = Kanit: wght @ 100; 200; 300; 400; 500; 600; 700; 800; 900 & display = swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+@media (max-width: 790px) {
+    #button-subscribe{display: none;}
+    #button-enter{display: none;}
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: #000000;
+    background: -webkit-linear-gradient(bottom, #000000, #2a282b);
+    background: -moz-linear-gradient(bottom, #000000, #2a282b);
+    background: linear-gradient(to top, #000000, #2a282b);
+    background-repeat: no-repeat;
+}
